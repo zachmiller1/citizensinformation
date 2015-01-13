@@ -2,6 +2,18 @@
 		General Styles
 =============================== */
 
+.active {
+	background: #dbe3e5; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dbe3e5 0%, #b1c6c6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dbe3e5), color-stop(100%,#b1c6c6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dbe3e5 0%,#b1c6c6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dbe3e5 0%,#b1c6c6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dbe3e5 0%,#b1c6c6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dbe3e5 0%,#b1c6c6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbe3e5', endColorstr='#b1c6c6',GradientType=0 ); /* IE6-9 */
+	color: #222;
+}
+
 .clearfix { 
 	zoom: 1; 
 }
@@ -182,6 +194,74 @@ h3 {
 }
 
 /* ============================
+		Information Page
+=============================== */
+
+.infoHeader {
+	text-align: center;
+}
+
+.infoHeader h1 {
+	margin-bottom: 0;
+	color: #9e1728;
+}
+
+.infoHeader p {
+	margin-top: 0;
+}
+
+/* ------------ Info Nav ------------- */
+
+.infoNav {
+	background-color: #ccc;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.infoNav li {
+	display: inline;
+}
+
+.infoNav a {
+	text-decoration: none;
+	display: block;
+	float: left;
+	width: 33%;
+	text-align: center;
+	color: #005479;
+}
+
+.infoNav a:hover {
+	color: #9e1728;
+}
+
+/* ------------ Climate Table ------------- */
+
+.climateTable table {
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+	width: 70%; 
+	border-collapse: collapse; 
+	border-spacing: 0;
+	float: left;
+}
+
+.climateTable td, th { 
+	border: 1px solid transparent; 
+	height: 30px;   
+}
+
+.climateTable th {
+	background: #ccc;  
+	font-weight: bold;
+}
+
+.climateTable td {
+	background: #FAFAFA;
+	text-align: center;
+}
+
+/* ============================
 		Site Footer
 =============================== */
 
@@ -207,7 +287,9 @@ h3 {
 	text-align: center;
 }
 
-
+.siteFooter a:hover {
+	color: #fff;
+}
 
 
 
